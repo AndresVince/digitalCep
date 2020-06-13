@@ -1,6 +1,6 @@
 {
-    "name": "vince/digitalcep",
-    "description": "Consulta CEP digital",
+    "name": "andresvince/digitalcep",
+    "description": "Mudando tudo para vendor andresvince",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -11,14 +11,15 @@
     ],
     "require": {
 
-        "php": ">=7.2.0"
+        "php": ">= 7.2.0"
     },
     "autoload": {
+
         "psr-0": {
             "Search": "src/"
         },
         "psr-4": {
-            "vince\\digitalcep\\": "src/"
+            "andresvince\\digitalcep\\": "src/"
         }
     }
 }
